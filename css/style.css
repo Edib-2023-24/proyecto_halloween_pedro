@@ -8,12 +8,18 @@
 
 /* Tipografía */
 @font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+  font-family: "october";
+  src: url("../") format("woff2"), url("") format("woff");
 }
 
 /* ******************************** */
 
 /* Colores */
 
+:root {
+  /* Mode 1 */
+  /* colors */
+  --halloween-amarillo: #ffe818;
+  --halloween-negro: #000000;
+}
 /* ******************************** */
