@@ -9,7 +9,7 @@
 /* Tipografía */
 @font-face {
   font-family: "october";
-  src: url("../") format("woff2"), url("") format("woff");
+  src: url("../font/October\ Crow.woff2") format("woff2"), url("../font/October\ Crow.woff") format("woff");
 }
 
 /* ******************************** */
@@ -23,3 +23,42 @@
   --halloween-negro: #000000;
 }
 /* ******************************** */
+html{
+
+font-family:"october",sans-serif;
+
+
+}
+/* Retina Display */
+    /* Móvil */
+
+   body{
+
+/* Retina Display */
+    /* Móvil */
+    
+    @media only screen and (min-width: 320px) and (max-width: 500px) and (orientation: portrait) {
+      @media (-webkit-min-device-pixel-ratio: 1){
+          background-image: url(../img/smartphone/contador.webp);
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 2) {
+          background-image: url(../img/smartphone/contador@2x.webp);
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 3) {
+          background-image: url(../img/smartphone/contador@3x.webp);
+      }
+  }
+  background-size: cover;
+
+ 
+}
+header{
+width:390px;
+height: 80px;
+background-size: cover;
+
+}
+
+
