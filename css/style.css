@@ -167,33 +167,80 @@ width:20px;
 /******** PAGINA CONTADOR******/
 
 .body_contador{
-  width:390px;
-  height: 844px;
-  background-color: #ffe818;
+  width: 26.875rem;
+  height: 58.25rem;
+  background-color: #18ffb2;
+background-image: url(../img/smartphone/foto_susto\ 1.webp);
+background-size: contain;
 
-/* Retina Display */
-    /* Móvil */
-    
- /*   @media only screen and (min-width: 320px) and (max-width: 500px) and (orientation: portrait) {
-      @media (-webkit-min-device-pixel-ratio: 1){
-          background-image: url(../img/smartphone/foto_susto\ 1.webp);
-      }
-
-      @media (-webkit-min-device-pixel-ratio: 2) {
-          background-image: url(../img/smartphone/foto_susto\ 1@2x.webp);
-      }
-
-      @media (-webkit-min-device-pixel-ratio: 3) {
-          background-image: url(../img/smartphone/foto_susto\ 1@3x.webp);
-      }
-
-*/
   }
-.container{
-width: 320px;
-height: 844px;
-background-color: #1c18ff;
+.header_contador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 26.875rem;
+height: 5rem;
 
 
+}
+.header_contador nav  a {
+background: var(--halloween_amarillo, #FFE818);
+height:70px;
+width:100px;
+border-radius: 25%;
+text-align: center;
+text-decoration: none;
+color: black;
+box-shadow: 1px 1px rgb(153, 16, 16);
+
+}
+.main_contador {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Cambiado de align-content a align-items */
+  flex-direction: column; /* Cambiado de flex a flex-direction */
+  width: 26.875rem;
+  height: 775px;
+}
+
+.letra_1_contador{
+width:100px;
+height: 50px;
+font-size: 60px;
+color: var(--halloween_amarillo, #FFE818);
+margin-top: -80px;
+margin-left:-190px;
+}
+.letra_2_contador{
+  width:100px;
+  height: 50px;
+  font-size: 60px;
+  color: var(--halloween_amarillo, #FFE818);
+  margin-top: 150px;
+  }
+  .letra_3_contador{
+    width:100px;
+    height: 50px;
+    margin-left: -150px;
+    font-size: 60px;
+    color: var(--halloween_amarillo, #FFE818);
+    margin-top: 130px;
+    }
+    .letra_4_contador{
+      width:100px;
+      height: 50px;
+      margin-left: -60px;
+      font-size: 60px;
+      color: var(--halloween_amarillo, #FFE818);
+      margin-top: 180px;
+      }
+
+
+.footer_contador{
+  width: 26.875rem;
+  height: 80px;
+  background-color: brown;
+  background-image:url(../img/smartphone/PAYPAL.webp);
+  background-size: contain;
 }
 
