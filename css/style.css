@@ -190,7 +190,7 @@ height: 5rem;
 }
 .header_contador nav  a {
 background: var(--halloween_amarillo, #FFE818);
-height:70px;
+height:90px;
 width:100px;
 border-radius: 25%;
 text-align: center;
@@ -229,7 +229,7 @@ margin-left:-190px;
     margin-left: -150px;
     font-size: 60px;
     color: var(--halloween_amarillo, #FFE818);
-    margin-top: 130px;
+    margin-top: 190px;
     }
     .letra_4_contador{
       width:100px;
@@ -237,7 +237,7 @@ margin-left:-190px;
       margin-left: -60px;
       font-size: 60px;
       color: var(--halloween_amarillo, #FFE818);
-      margin-top: 180px;
+      margin-top: 140px;
       }
 
 
@@ -252,11 +252,33 @@ margin-left:-190px;
 /*********PAGINA SUSTO******/
 
 
-.container{
+#container{
+  display: flex;
+  flex-direction: column;
   width: 26.875rem;
   height: 52.75rem;
-  background-image: url(../img/smartphone/foto_susto\ 1.webp);
-
-
+  background-image: url(../img/smartphone/dracula.webp);
+  background-size:contain;
+  background-repeat:no-repeat;
+  
 
 }
+main{
+width:430px;
+height:100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.siguiente_pagina{
+text-decoration: none;
+width: 100px;
+height: 30px;
+background-color: #FFE818;
+border-radius: 25px;
+text-align: center;
+color: #000000;
+}
+
+/*********PAGINAS PRODUCTOS**********/
