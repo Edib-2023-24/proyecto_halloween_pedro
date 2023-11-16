@@ -196,7 +196,7 @@ border-radius: 25%;
 text-align: center;
 text-decoration: none;
 color: black;
-box-shadow: 1px 1px rgb(153, 16, 16);
+
 
 }
 .main_contador {
@@ -282,3 +282,19 @@ color: #000000;
 }
 
 /*********PAGINAS PRODUCTOS**********/
+
+
+#contenedor_productos{
+width: 26.875rem;
+height:58.25rem;
+background-image: url(../img/smartphone/calavera.webp);
+display: flex;
+flex-direction: column;
+
+}
+header{
+width: 430px;
+height: 80px;
+background-color: var(--halloween-amarillo);
+
+}
