@@ -33,17 +33,21 @@ font-family:"october",sans-serif;
     /* Móvil */
 
   .body{
-    height: 100vh;
-    display: flex;
-    flex-direction:column ;
-    justify-content: space-between;
+    margin: 0;
+    
+    width:100%;
+   display: flex;
+   flex-direction: column;
+   background-size: cover;
+   background-repeat:no-repeat;
+    
 
 /* Retina Display */
     /* Móvil */
     
     @media only screen and (min-width: 320px) and (max-width: 500px) and (orientation: portrait) {
       @media (-webkit-min-device-pixel-ratio: 1){
-          background-image: url(../img/smartphone/contador.webp);
+         background-image: url(../img/smartphone/contador.webp);
       }
 
       @media (-webkit-min-device-pixel-ratio: 2) {
@@ -54,96 +58,121 @@ font-family:"october",sans-serif;
           background-image: url(../img/smartphone/contador@3x.webp);
       }
   }
-  background-size: cover;
-  background-repeat:no-repeat;
+  
 
 
 }
-.header{
-width:390px;
-height: 80px;
+.header {
+width:100%;
+height:77px;
+background-color: #000000;
+
+
+
+}
+nav{
+  width: 100%;
+  height: 120px;
 background-size: cover;
-
+background-image: url(../img/smartphone/PAYPAL.webp);
+background-repeat: no-repeat;
+background-size: contain;
 }
+
+
 .main{
-display: flex;
-flex-direction: column;
+width:100%;
+height:100px;
+
+
+
  
 }
-p{
-  margin: 0;
-}
+
 
 .horario{
-  font-size: 5.625rem;
-  margin-top: .625rem;
-  margin-left: .625rem;
-  color: var(--halloween-amarillo);
+  width:100%;
+  font-size: 90px;
+ color: var(--halloween-amarillo);
   letter-spacing: .9375rem;
+  margin-top:30px;
+  
   
 
 }
+
 .horario2{
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   
+  
 }
 
 .horas{
- margin-left: 10px;
-  width: 80px;
+ margin-left: 5px;
+width: 80px;
 color:var(--halloween-amarillo);
 font-size: 30px;
 
 }
 
 .minutos{
+  margin-top: -10px;
   height: 30px;
   font-size: 30px;
   color:var(--halloween-amarillo);
   }
   
   .segundos{
-    
+    margin-right: 5px;
     font-size: 30px;
     color:var(--halloween-amarillo);
 
   }
-  .letra_atrevete a {
-display: flex;
-flex-direction: column;
-width: 300px;
-  color: var(--halloween-amarillo);
-  margin-left: 50px;
-  font-size:30px;
-    letter-spacing: 10px;
-    text-decoration: none;
-    transform: scaleY(2.5);
+  
+  .letra_atrevete {
+    width: 100%;
+    height: 100%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+   
+    
+    
+
 
   }
+  
   .letra_atrevete p{
 color: var(--halloween-amarillo);
-margin-top: 50px;
-margin-left: 100px;
 font-size: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
   }
   
-  
+ .letra_atrevete a{
+text-decoration: none;
+
+ }
   
 .footer{
 display:flex;
 flex-direction: row;
-background-color: var(--halloween-amarillo);
-width: 390px;
+width: 100%;
 height: 80px;
-
 bottom: 0;
+background-color: chocolate;
 
 }
 
 .palabra_contacto{
-margin-top: 20px;
+margin-top: 10px;
 margin-left:30px;
 font-size: 30px;
 text-decoration: none;
@@ -172,40 +201,50 @@ width:20px;
 /******** PAGINA CONTADOR******/
 
 .body_contador{
-  width: 26.875rem;
-  height: 58.25rem;
-  background-color: #18ffb2;
-background-image: url(../img/smartphone/foto_susto\ 1.webp);
-background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/smartphone/foto_susto\ 1.webp);
+  background-size: cover;
+
 
   }
-.header_contador{
+
+.header_contador {
+  height: 90px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-width: 26.875rem;
-height: 5rem;
+  background-image: inherit;
+background-size: cover;
+  background-repeat: no-repeat;
+}
 
+
+.nav {
+  width: 120px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: rgb(34, 31, 31);
+  text-align: center;
+ 
+  
 
 }
-.header_contador nav  a {
-background: var(--halloween_amarillo, #FFE818);
-height:90px;
-width:100px;
-border-radius: 25%;
-text-align: center;
-text-decoration: none;
-color: black;
-
-
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--halloween-amarillo);
+  
 }
+
 .main_contador {
   display: flex;
   justify-content: center;
   align-items: center; /* Cambiado de align-content a align-items */
   flex-direction: column; /* Cambiado de flex a flex-direction */
   width: 26.875rem;
-  height: 775px;
+  height:775px;
 }
 
 .letra_1_contador{
@@ -255,12 +294,18 @@ margin-left:-190px;
 #container{
   display: flex;
   flex-direction: column;
-  width: 26.875rem;
+  width: 100vh;
   height: 52.75rem;
   background-image: url(../img/smartphone/dracula.webp);
   background-size:contain;
   background-repeat:no-repeat;
   
+
+}
+header nav{
+background-size: contain;
+background-image:url(../img/smartphone/PAYPAL.webp);
+background-size: contain;
 
 }
 main{
